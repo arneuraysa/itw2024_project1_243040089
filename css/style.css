@@ -640,14 +640,14 @@ section {
 
 
 /* RESPONSIVE BREAKPOINT */
-@media (max-width:1285px) {
+@media (max-width:1281px) {
     html {
         font-size: 55%;
     }
 }
 
 /* Ukuran Tablet */
-@media (max-width:768px) { 
+@media (max-width:769px) { 
     header {
         justify-content: space-around;
     }
@@ -821,7 +821,7 @@ section {
 }
 
 /* Ukuran Handphone */
-@media (max-width:576px) {
+@media (max-width:481px) {
     .navbar {
         width: 180px;
     }
@@ -839,7 +839,10 @@ section {
 
    .content-satu h3, h1, h4 {
         text-align: center;
+   }
 
+   .content-satu h1 {
+    font-size: 5.7rem;
    }
 
    .content-satu, 
@@ -866,6 +869,30 @@ section {
        top: .7rem;
    }
 
+   .about-me {
+    font-size: 5.5rem;
+   }
+
+   .my-education {
+    font-size: 5.5rem;
+   }
+
+   .my-skill {
+    font-size: 5.5rem;
+   }
+
+   .skillnya h4 {
+    font-size: 1.7rem;
+   }
+
+   .skillnya li {
+    font-size: 1.7rem;
+   }
+
+   .my-certificate {
+    font-size: 5.5rem;
+   }
+
    .certificate-satu,
    .certificate-dua {
        grid-template-columns: repeat(1,1fr);
@@ -886,6 +913,10 @@ section {
 
    .certificate-items img {
        width: 17rem;
+   }
+
+   .contact-me {
+    font-size: 5.5rem;
    }
 }
 /* RESPONSIVE BREAKPOINT END */
